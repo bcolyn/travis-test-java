@@ -3,7 +3,7 @@
 
     <groupId>org.github.bcolyn.travis-test-java</groupId>
     <artifactId>travis-test-java</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>Test Project</name>
