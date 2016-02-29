@@ -43,6 +43,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-bcolyn-maven</id>
+            <url>https://api.bintray.com/maven/bcolyn/releases/travis-test-java</url>
+        </repository>
+    </distributionManagement>
+
+
     <repositories>
         <repository>
             <snapshots>
