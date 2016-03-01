@@ -3,7 +3,7 @@
 
     <groupId>org.github.bcolyn.travis-test-java</groupId>
     <artifactId>travis-test-java</artifactId>
-    <version>1.3-SNAPSHOT</version>
+    <version>1.3</version>
     <packaging>jar</packaging>
 
     <name>Test Project</name>
@@ -40,7 +40,8 @@
         <url>https://github.com/bcolyn/travis-test-java</url>
         <connection>scm:git:https://github.com/bcolyn/travis-test-java.git</connection>
         <developerConnection>scm:git:git@github.com:bcolyn/travis-test-java.git</developerConnection>
-    </scm>
+      <tag>v1.3</tag>
+  </scm>
 
     <dependencies>
         <dependency>
