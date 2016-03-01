@@ -49,6 +49,12 @@
             <name>bcolyn-releases</name>
             <url>https://api.bintray.com/maven/bcolyn/releases/travis-test-java/;publish=1</url>
         </repository>
+        <!-- don't want to do the setup for jfrog for this (it's throwaway) so deploy to local dir instead -->
+        <snapshotRepository>
+            <id>no-jfrog</id>
+            <name>99 problems but jfrog ain't one</name>
+            <url>file://target</url>
+        </snapshotRepository>
     </distributionManagement>
 
 
