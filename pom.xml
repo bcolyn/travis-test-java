@@ -3,7 +3,7 @@
 
     <groupId>org.github.bcolyn.travis-test-java</groupId>
     <artifactId>travis-test-java</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>Test Project</name>
@@ -45,8 +45,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-bcolyn-maven</id>
-            <url>https://api.bintray.com/maven/bcolyn/releases/travis-test-java</url>
+            <id>bintray-bcolyn-releases</id>
+            <name>bcolyn-releases</name>
+            <url>https://api.bintray.com/maven/bcolyn/releases/travis-test-java/;publish=1</url>
         </repository>
     </distributionManagement>
 
@@ -56,7 +57,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>bintray-bcolyn-maven</id>
+            <id>bintray-bcolyn-releases</id>
             <name>bintray</name>
             <url>http://dl.bintray.com/bcolyn/maven</url>
         </repository>
@@ -66,7 +67,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>bintray-bcolyn-maven</id>
+            <id>bintray-bcolyn-releases</id>
             <name>bintray-plugins</name>
             <url>http://dl.bintray.com/bcolyn/maven</url>
         </pluginRepository>

@@ -3,7 +3,7 @@
           xmlns='http://maven.apache.org/SETTINGS/1.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
     <servers>
         <server>
-            <id>bintray-bcolyn-maven</id>
+            <id>bintray-bcolyn-releases</id>
             <username>${env.RELEASE_DEPLOY_USERNAME}</username>
             <password>${env.RELEASE_DEPLOY_PASSWORD}</password>
         </server>
