@@ -1,10 +1,8 @@
 language: java
-branches:
-  except:
-    - /^v[0-9]/ #don't build tags, the commits themselves are already build
 jdk:
 - oraclejdk8
 install: ''
+before_script: ./.travis_release.sh
 script:
 - mvn clean deploy --settings settings.xml -B -V
 env:
